@@ -1,0 +1,93 @@
+/*grid start*/
+#grid {
+	background-color: green;
+	display: grid;
+	padding: 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	grid-template-columns: 200px 200px auto;
+}
+.grid-item {
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+/*grid end*/
+/*flex box start*/
+#container {
+	display: flex;
+	flex-wrap: wrap;
+}
+#container > div {
+	background-color: springgreen;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	width: 200px;
+}
+/*flex box end*/
+
+/*responsive start*/
+@media (min-width: 600px) {
+	body {
+		background-color: powderblue;
+	}
+}
+@media (max-width: 599px) {
+	body {
+		background-color: green;
+	}
+}
+/*responsive ends*/
+button {
+	background-color: green;
+	width: 100px;
+	height: 50px;
+}
+button:hover {
+	background-color: orange;
+}
+
+a {
+	color:blue;
+}
+a[href="https://facebook.com"] {
+	color: red;
+}
+h1 {
+	color: blue;
+	text-align: center;
+}
+ul li {
+	color: purple;
+}
+#foo, #bar {
+	font-size: 100px;
+}
+.baz {
+	font-family: Arial;
+	font-size: 100px;
+}
+.maindiv {
+	background-color: green;
+	width: 500px;
+	height: 200px;
+	padding: 50px;
+	margin: 50px;
+}
+.fontdiv {
+	font-family: Arial;
+	font-size: 100px;
+	border: 3px solid black;
+	font-weight: bold;
+}
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td,th {
+	border: 1px solid black;
+	padding: 5px;
+}
+
