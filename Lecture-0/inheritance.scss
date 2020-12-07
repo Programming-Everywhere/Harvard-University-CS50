@@ -1,0 +1,18 @@
+%message {
+	font-size: 18px;
+	font-weight:bold;
+	padding: 20px;
+	border: 1px solid black;
+}
+.success {
+	@extend %message;
+	background-color: green;
+}
+.danger {
+	@extend %message;
+	background-color: red;
+}
+.alert {
+	@extend %message;
+	background-color: yellow;
+}
